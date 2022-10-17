@@ -22,7 +22,7 @@ html header li {
 html body {
   background-color: #ffe4c4;
 }
-html body section {
+html body .landing {
   font-size: 40px;
   display: flex;
   justify-content: center;
@@ -32,20 +32,91 @@ html body section {
   width: 80%;
   height: 80vh;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
-html body section h1 {
+html body .landing h1 {
   margin: 0 auto;
   color: #B39878;
 }
-html body section .hr1 {
+html body .landing .hr1 {
   display: block;
   width: 20%;
 }
-html body section .photo {
+html body .landing .photo {
   width: 1000px;
   height: 250px;
   overflow: hidden;
   box-shadow: 2px 5px 15px black;
+}
+html body .grid {
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+  gap: 10px;
+}
+html body .grid .milieu {
+  height: 100%;
+  width: 100%;
+  grid-column: 4/8;
+  grid-row: 4/8;
+}
+html body .grid .milieu p {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+html body .grid div:nth-of-type(2) {
+  width: 100%;
+  height: auto;
+  grid-column: 1/4;
+  grid-row: 1/8;
+}
+html body .grid div:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+}
+html body .grid div:nth-of-type(3) {
+  width: 100%;
+  height: auto;
+  grid-column: 4/8;
+  grid-row: 1/4;
+}
+html body .grid div:nth-of-type(3) img {
+  width: 100%;
+  height: 100%;
+}
+html body .grid div:nth-of-type(4) {
+  width: 100%;
+  height: auto;
+  grid-column: 8/11;
+  grid-row: 1/6;
+}
+html body .grid div:nth-of-type(4) img {
+  width: 100%;
+  height: 100%;
+}
+html body .grid div:nth-of-type(5) {
+  width: 100%;
+  height: auto;
+  grid-column: 8/11;
+  grid-row: 6/11;
+}
+html body .grid div:nth-of-type(5) img {
+  width: 100%;
+  height: 100%;
+}
+html body .grid div:nth-of-type(6) {
+  width: 100%;
+  height: auto;
+  grid-column: 1/8;
+  grid-row: 8/11;
+}
+html body .grid div:nth-of-type(6) img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=build.css.map */
