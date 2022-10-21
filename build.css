@@ -208,9 +208,48 @@ html footer #infoC {
   margin-bottom: 50px;
 }
 
-/*@media screen and (max-width: 1280px)
-{
-
-}*/
+@media screen and (max-width: 426px) {
+  html header li {
+    font-size: 10px;
+  }
+  html body .landing h1 {
+    text-align: center;
+  }
+  html body .landing .photo {
+    width: 350px;
+    height: 150px;
+  }
+  html body .grid {
+    width: 70%;
+    margin-left: 20px;
+    height: auto;
+  }
+  html body .grid div:nth-of-type(2) {
+    overflow: hidden;
+    width: auto;
+  }
+  html body .grid .milieu p {
+    font-size: 20px;
+  }
+  html body .blanc .images .dessous {
+    left: 115px;
+  }
+  html body .blanc .images .dessus {
+    right: 115px;
+  }
+  html footer {
+    height: 120px;
+  }
+  html footer p {
+    font-size: 10px;
+    text-align: center;
+  }
+  html footer .reseaux p {
+    font-size: 10px;
+  }
+  html footer .reseaux .img {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=build.css.map */

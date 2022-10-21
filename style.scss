@@ -213,8 +213,62 @@ html {
     }
 }
 
-
-/*@media screen and (max-width: 1280px)
-{
-
-}*/
+@media screen and (max-width: 426px) {
+    html{
+        header{
+            li{
+                font-size: 10px;
+            }
+        }
+        body{
+            .landing{
+                h1{
+                    text-align: center;
+                }
+                .photo{
+                    width: 350px;
+                    height: 150px;
+                }
+            }
+            .grid{
+                width: 70%;
+                margin-left: 20px;
+                height: auto;
+                div:nth-of-type(2){
+                    overflow: hidden;
+                    width: auto;
+                }
+                .milieu{
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .blanc{
+                .images{
+                    .dessous{
+                        left: 115px;
+                    }
+                    .dessus{
+                        right: 115px;
+                    }
+                }
+            }
+        }
+        footer{
+            height: 120px;
+            p{
+                font-size: 10px;
+                text-align: center;
+            }
+            .reseaux{
+                p{
+                    font-size: 10px;
+                }
+                .img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
