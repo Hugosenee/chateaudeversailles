@@ -208,6 +208,34 @@ html footer #infoC {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 769px) {
+  html body .landing h1 {
+    font-size: 50px;
+  }
+  html body .landing .photo {
+    width: 620px;
+    height: 230px;
+  }
+  html body .grid {
+    margin-left: 30px;
+  }
+  html body .blanc .images .dessous {
+    left: 400px;
+  }
+  html body .blanc .images .dessus {
+    right: 400px;
+  }
+  html footer p {
+    font-size: medium;
+    text-align: center;
+  }
+  html footer .reseaux p {
+    font-size: medium;
+  }
+  html footer .reseaux img {
+    width: 20%;
+  }
+}
 @media screen and (max-width: 426px) {
   html header li {
     font-size: 10px;

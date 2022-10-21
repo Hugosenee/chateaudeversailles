@@ -213,6 +213,49 @@ html {
     }
 }
 
+@media screen and (max-width: 769px) {
+    html{
+        body{
+            .landing{
+                h1{
+                    font-size: 50px;
+                }
+                .photo{
+                    width: 620px;
+                    height: 230px;
+                }
+            }
+            .grid{
+                margin-left: 30px;
+            }
+            .blanc{
+                .images{
+                    .dessous{
+                        left: 400px;
+                    }
+                    .dessus{
+                        right: 400px;
+                    }
+                }
+            }
+        }
+        footer{
+            p{
+                font-size: medium;
+                text-align: center;
+            }
+            .reseaux{
+                p{
+                    font-size: medium;
+                }
+                img{
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 426px) {
     html{
         header{
@@ -272,3 +315,4 @@ html {
         }
     }
 }
+
